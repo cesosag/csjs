@@ -1,5 +1,5 @@
 {
-  "name": "csjs-site",
+  "name": "csjs-web",
   "version": "1.0.0",
   "description": "Code for csjs.dev site",
   "main": "index.js",
@@ -10,7 +10,8 @@
 	"scripts": {
 		"dev": "next",
 		"build": "next build",
-		"start": "next start"
+		"start": "next start",
+    "heroku-postbuild": "yarn build"
 	},
   "dependencies": {
     "next": "^9.4.4",

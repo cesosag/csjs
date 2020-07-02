@@ -1,5 +1,5 @@
 {
-  "name": "cms-csjs",
+  "name": "csjs-cms",
   "private": true,
   "version": "0.1.0",
   "description": "CMS for csjs.dev",
@@ -9,7 +9,8 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "heroku-postbuild": "yarn build"
   },
   "devDependencies": {},
   "dependencies": {
