@@ -1,0 +1,34 @@
+{
+  "name": "cms-csjs",
+  "private": true,
+  "version": "0.1.0",
+  "description": "CMS for csjs.dev",
+  "repository": "git@github.com:cesosag/csjs.git",
+  "author": "Carlos Sosa <cesosag@gmail.com>",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "strapi": "3.0.5",
+    "strapi-admin": "3.0.5",
+    "strapi-utils": "3.0.5",
+    "strapi-plugin-content-type-builder": "3.0.5",
+    "strapi-plugin-content-manager": "3.0.5",
+    "strapi-plugin-users-permissions": "3.0.5",
+    "strapi-plugin-email": "3.0.5",
+    "strapi-plugin-upload": "3.0.5",
+    "strapi-connector-mongoose": "3.0.5"
+  },
+  "strapi": {
+    "uuid": "95dd24d1-d51c-4bb4-8e9f-1c40a3f9557d"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

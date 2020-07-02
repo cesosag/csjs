@@ -1,0 +1,20 @@
+{
+  "name": "csjs-site",
+  "version": "1.0.0",
+  "description": "Code for csjs.dev site",
+  "main": "index.js",
+  "repository": "git@github.com:cesosag/csjs.git",
+  "author": "Carlos Sosa <cesosag@gmail.com>",
+  "license": "MIT",
+	"private": true,
+	"scripts": {
+		"dev": "next",
+		"build": "next build",
+		"start": "next start"
+	},
+  "dependencies": {
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
