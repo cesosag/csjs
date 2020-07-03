@@ -10,12 +10,15 @@
 	"scripts": {
 		"dev": "next",
 		"build": "next build",
-		"start": "next start",
-    "heroku-postbuild": "yarn build"
+		"start": "next start -p $PORT"
 	},
   "dependencies": {
     "next": "^9.4.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
+	},
+	"engines": {
+    "node": "12.x",
+    "yarn": "1.x"
   }
 }

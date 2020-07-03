@@ -9,8 +9,7 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi",
-    "heroku-postbuild": "yarn build"
+    "strapi": "strapi"
   },
   "devDependencies": {},
   "dependencies": {
@@ -29,8 +28,8 @@
     "uuid": "95dd24d1-d51c-4bb4-8e9f-1c40a3f9557d"
   },
   "engines": {
-    "node": ">=10.0.0",
-    "npm": ">=6.0.0"
+    "node": "12.x",
+    "yarn": "1.x"
   },
   "license": "MIT"
 }
