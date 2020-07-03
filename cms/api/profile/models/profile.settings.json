@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "profiles",
+  "info": {
+    "name": "Profile"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "about": {
+      "type": "text",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "location": {
+      "type": "string"
+    },
+    "experiences": {
+      "collection": "experience"
+    }
+  }
+}

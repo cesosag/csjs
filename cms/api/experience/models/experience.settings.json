@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "experiences",
+  "info": {
+    "name": "Experience"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "company": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "jobTitle": {
+      "type": "string",
+      "required": true
+    },
+    "startDate": {
+      "type": "date",
+      "required": true
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "currentlyWorkingHere": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "accomplishments": {
+      "type": "text"
+    },
+    "responsibilities": {
+      "type": "text",
+      "required": true
+    },
+    "location": {
+      "type": "string",
+      "required": false
+    }
+  }
+}
